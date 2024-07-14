@@ -55,6 +55,7 @@ function Temp() {
 
     return (
         <div className='main-container'>
+            <h1>Temperature Converter</h1>
             <div className='from-container'>
                 <label htmlFor="from">From</label>
                 <input type="number" value={from} onChange={handlefromvalue} />
