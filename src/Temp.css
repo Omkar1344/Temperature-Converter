@@ -1,0 +1,62 @@
+body {
+    background-image: url("https://t4.ftcdn.net/jpg/02/10/54/69/360_F_210546904_9BCZEy11YRxLIXH4WHC1btb0sPx7nF2m.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #fce4ec;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+.from-container, .to-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+input[type="number"], input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    background-color: #e9e9e9;
+    cursor: not-allowed;
+}
+
+input[type="number"]:focus, input[type="text"]:focus, select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
